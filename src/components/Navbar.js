@@ -30,7 +30,7 @@ function Navbar() {
                   </li>
                   <li class="nav-item ">
                       <a class="nav-link active" href="Institutes">
-                          <button class="btn btn-primary">Institution</button>
+                          <button class="btn btn-primary">Institutions</button>
                       </a>
                   </li>
                   <li class="nav-item">
