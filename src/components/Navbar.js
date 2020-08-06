@@ -29,17 +29,17 @@ function Navbar() {
                       <a class="nav-link " target="_blank" href="img/yogaathome.pdf">Yoga at Home</a>
                   </li>
                   <li class="nav-item ">
-                      <a class="nav-link active" href="Institutes">
+                      <a class="nav-link active" href="#/Institutes">
                           <button class="btn btn-primary">Institutions</button>
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link active" href="Teachers">
+                      <a class="nav-link active" href="#/Teachers">
                           <button class="btn btn-primary">Teachers</button>
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link active" href="Participants">
+                      <a class="nav-link active" href="#/Participants">
                           <button class="btn btn-primary">Attendee</button>
                       </a>
                   </li>

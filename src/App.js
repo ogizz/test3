@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import {HashRouter, BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import {HashRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 
 import Navbar from './components/Navbar'
@@ -17,7 +17,7 @@ function App() {
     
       
       
-      <HashRouter basename={`${process.env.PUBLIC_URL}/`}>
+      <Router basename={`${process.env.PUBLIC_URL}/`}>
       <Container className="p-0" fluid={true}>
       <Topimg />
         <Navbar />
@@ -26,18 +26,17 @@ function App() {
         
         <div>
         <Switch>
-          <Route exact path="/test2/teachers" component={TeachersPage} />
-          <Route path="/" exact render={() => <Home />} />  
-          <Route path="/Teachers" render={() => <TeachersPage />} />
-          <Route path="/Institutes" render={() => <InstitutionsPage title={"This is sajkc Page"} />} />  
-          
+          <Route exact path='/' component={Home} />
+          <Route path='/Teachers' component={TeachersPage}  />
+          <Route path="/Institutes" component={InstitutionsPage} />  
+          <Route path="/Participants" component={Topimg} />  
         </Switch>
         </div>
 
         <Footer />
       
       </Container>
-      </HashRouter>
+      </Router>
         
       
     
