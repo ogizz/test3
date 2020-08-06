@@ -27,9 +27,10 @@ function App() {
         <div>
         <Switch>
         <Route exact path="/test2/teachers" component={TeachersPage} />
-          <Route path="/" exact render={() => <Home title={"This is teacher Page"} />} />  
-          <Route path="/Teachers" render={() => <TeachersPage title={"This is teacher Page"} />} />
+          <Route path="/" exact render={() => <Home />} />  
+          <Route path="/Teachers" render={() => <TeachersPage />} />
           <Route path="/Institutes" render={() => <InstitutionsPage title={"This is sajkc Page"} />} />  
+          <Route component={Home} />
         </Switch>
         </div>
 
