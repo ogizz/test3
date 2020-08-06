@@ -23,9 +23,10 @@ function App() {
         <Navbar />
         
 
-
+        
         <div>
         <Switch>
+        <Route exact path="/test1" component={TeachersPage} />
           <Route path="/" exact render={() => <Home title={"This is teacher Page"} />} />  
           <Route path="/Teachers" render={() => <TeachersPage title={"This is teacher Page"} />} />
           <Route path="/Institutes" render={() => <InstitutionsPage title={"This is sajkc Page"} />} />  
