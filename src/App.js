@@ -17,7 +17,7 @@ function App() {
     
       
       
-      <Router>
+      <Router basename={`${process.env.PUBLIC_URL}/`}>
       <Container className="p-0" fluid={true}>
       <Topimg />
         <Navbar />
@@ -26,7 +26,7 @@ function App() {
         
         <div>
         <Switch>
-        <Route exact path="/test2/teachers" component={TeachersPage} />
+        <Route exact path="/test" component={TeachersPage} />
           <Route path="/" exact render={() => <Home title={"This is teacher Page"} />} />  
           <Route path="/Teachers" render={() => <TeachersPage title={"This is teacher Page"} />} />
           <Route path="/Institutes" render={() => <InstitutionsPage title={"This is sajkc Page"} />} />  
