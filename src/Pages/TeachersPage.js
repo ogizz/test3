@@ -1,10 +1,11 @@
 import React from 'react'
 
-import Records from '../components/Records'
+import Deadline from '../components/Deadline';
+
 
  function TeachersPage() {
     return (
-        <Records />
+        <Deadline />
     )
 }
 

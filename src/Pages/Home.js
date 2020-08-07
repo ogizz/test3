@@ -60,21 +60,21 @@ function Home() {
 <div class="container-fluid padding">
 	<div class="row text-center padding">
 		<div class="col-xs-12 col-sm-6 col-md-4">
-			<a href="institutes">
+			<a href="/#/Institutes">
 			<img src={institute}/>
 			<h3>As institution</h3>
 			<p>Participate as institution</p>
 		</a>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
-			<a href="Teachers">
+			<a href="/#/Teachers">
 			<img src={teacher}/>
 			<h3>As Teacher</h3>
 			<p>Participate as Teacher</p>
 		</a>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
-			<a href="Participants">
+			<a href="/#/Participants">
 				<img src={attendee}/>
 				<h3>As attendee</h3>
 			<p>Participate as Attendee</p>

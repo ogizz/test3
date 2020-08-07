@@ -43,9 +43,7 @@ function Navbar() {
                           <button class="btn btn-primary">Attendee</button>
                       </a>
                   </li>
-                  <li class="nav-item">
-        <a class="nav-link active" href="Reports"><button class="btn btn-primary">Review Report</button> </a>
-      </li>
+                  
               </ul>
           </div>
       </div>

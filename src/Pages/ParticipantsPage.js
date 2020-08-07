@@ -1,12 +1,12 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
 
 import Deadline from '../components/Deadline';
 
-function InstitutionsPage() {
+
+function ParticipantsPage() {
     return (
         <Deadline />
     )
 }
 
-export default InstitutionsPage
+export default ParticipantsPage

@@ -10,6 +10,8 @@ import Topimg from './components/Topimg'
 import Home from './Pages/Home'
 import TeachersPage from './Pages/TeachersPage'
 import InstitutionsPage from './Pages/InstitutionsPage'
+import ParticipantsPage from './Pages/ParticipantsPage';
+
 
 
 function App() {
@@ -17,7 +19,7 @@ function App() {
     
       
       
-      <Router basename={`${process.env.PUBLIC_URL}/`}>
+      <Router basename={`${process.env.PUBLIC_URL}`}>
       <Container className="p-0" fluid={true}>
       <Topimg />
         <Navbar />
@@ -29,7 +31,7 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route path='/Teachers' component={TeachersPage}  />
           <Route path="/Institutes" component={InstitutionsPage} />  
-          <Route path="/Participants" component={Topimg} />  
+          <Route path="/Participants" component={ParticipantsPage} />  
         </Switch>
         </div>
 
