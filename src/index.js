@@ -3,9 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Favicon from 'react-favicon'
+
+import lrfav from './img/favicon.jpeg'
 
 ReactDOM.render(
   <React.StrictMode>
+    <Favicon url={lrfav} />
     <App />
   </React.StrictMode>,
   document.getElementById('root')

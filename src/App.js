@@ -15,9 +15,9 @@ import ParticipantsPage from './Pages/ParticipantsPage';
 
 
 function App() {
+  document.title = "Internation Day of Yoga 2020"
   return (
     
-      
       
       <Router basename={`${process.env.PUBLIC_URL}`}>
       <Container className="p-0" fluid={true}>
